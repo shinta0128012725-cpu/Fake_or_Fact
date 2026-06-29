@@ -96,6 +96,10 @@ gensimを使い、Fake Newsのトピック構造を分析した。
 | Logistic Regression | BoW | 線形モデルのベースライン |
 | Linear SVM（SGDClassifier） | BoW | 高次元テキストデータに強い線形モデル |
 | XGBoost | BoW + VADERスコア | 感情スコアを追加特徴量として組み合わせ |
+| 決定木 | BoW | if/elseのルール明確化 |
+|  naive_bayes | BoW | 単語ごとの出現確率 |
+
+
 
 ---
 
